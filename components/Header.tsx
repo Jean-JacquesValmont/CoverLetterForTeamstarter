@@ -6,7 +6,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const Header = () => {
   return (
-    <div className='flex justify-between pt-2 px-32 font-light text-sm'>
+    <header className='flex justify-between pt-2 px-32 font-light text-sm sticky top-0 z-10'>
         <Link className='py-4' href="/">
             <Image src="/image/teamstarter_logo.svg" alt="logo_web_white" width={200} height={500} />
         </Link>
@@ -33,7 +33,7 @@ const Header = () => {
                 </button>
             </ul>
         </nav>
-    </div>
+    </header>
   )
 }
 
