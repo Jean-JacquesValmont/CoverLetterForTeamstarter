@@ -13,7 +13,7 @@ const Header = () => {
         
         <nav className='flex'>
             <ul className='flex gap-4 items-center flex-row '>
-                <Link className='transition-colors duration-500 hover:text-[#ff00ac]' href="/page2">
+                <Link className='transition-colors duration-500 hover:text-[#ff00ac]' href="/MyAddedValue">
                     <li className='p-4'>Ma valeur ajoutée</li>
                 </Link>
                 <Link className='transition-colors duration-500 hover:text-[#ff00ac]' href="/page3">

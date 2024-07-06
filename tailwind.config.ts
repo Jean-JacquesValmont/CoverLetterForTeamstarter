@@ -16,8 +16,21 @@ const config: Config = {
       boxShadow: {
         'custom-dark': '0 3px rgba(0, 0, 0, 1)',
       },
+      keyframes: {
+        rotate360: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
+      animation: {
+        rotate360: 'rotate360 10s linear infinite',
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 };
 export default config;
