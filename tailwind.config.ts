@@ -15,6 +15,8 @@ const config: Config = {
       },
       boxShadow: {
         'custom-dark': '0 3px rgba(0, 0, 0, 1)',
+        'custom-green': '15px 15px 5px rgba(25, 255, 190, 1)',
+
       },
       keyframes: {
         rotate360: {

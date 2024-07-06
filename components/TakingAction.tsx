@@ -12,7 +12,6 @@ const TakingAction = () => {
                 Je me lance !
             </button>
         </div>
-        
     </div>
   )
 }

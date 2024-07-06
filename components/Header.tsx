@@ -16,7 +16,7 @@ const Header = () => {
                 <Link className='transition-colors duration-500 hover:text-[#ff00ac]' href="/MyAddedValue">
                     <li className='p-4'>Ma valeur ajoutée</li>
                 </Link>
-                <Link className='transition-colors duration-500 hover:text-[#ff00ac]' href="/page3">
+                <Link className='transition-colors duration-500 hover:text-[#ff00ac]' href="/JoinUs">
                     <li className='p-4'>Vous rejoindre</li>
                 </Link>
                 <Link className='transition-colors duration-500 hover:text-[#ff00ac]' href="https://port-folio-three-umber.vercel.app/" target="_blank">

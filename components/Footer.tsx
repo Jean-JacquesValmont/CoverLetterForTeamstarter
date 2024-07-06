@@ -14,10 +14,10 @@ const Footer = () => {
             
             <nav className='flex pl-8'>
                 <ul className='flex gap-4 items-center flex-row '>
-                    <Link className='hover:text-[#ff00ac]' href="/page2">
+                    <Link className='hover:text-[#ff00ac]' href="/MyAddedValue">
                         <li className='p-4'>Ma valeur ajoutée</li>
                     </Link>
-                    <Link className='hover:text-[#ff00ac]' href="/page3">
+                    <Link className='hover:text-[#ff00ac]' href="/JoinUs">
                         <li className='p-4'>Vous rejoindre</li>
                     </Link>
                     <Link className='hover:text-[#ff00ac]' href="https://port-folio-three-umber.vercel.app/" target="_blank">
