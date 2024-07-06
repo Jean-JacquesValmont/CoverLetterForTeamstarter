@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import SectionIdeaToAction from "@/components/SectionIdeaToAction";
 import SectionWhatarent from "@/components/SectionWhatarent";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="">
       <Hero />
       <SectionWhatarent />
+      <SectionIdeaToAction />
     </main>
   );
 }
