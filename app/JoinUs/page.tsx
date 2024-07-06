@@ -1,3 +1,4 @@
+import JoinUsAction from '@/components/JoinUsAction'
 import Section1MyPhilosophy from '@/components/Section1MyPhilosophy'
 import Section2MyPhilosophy from '@/components/Section2MyPhilosophy'
 import Section3MyPhilosophy from '@/components/Section3MyPhilosophy'
@@ -10,6 +11,7 @@ const JoinUs = () => {
       <Section1MyPhilosophy />
       <Section2MyPhilosophy />
       <Section3MyPhilosophy />
+      <JoinUsAction />
     </div>
   )
 }
