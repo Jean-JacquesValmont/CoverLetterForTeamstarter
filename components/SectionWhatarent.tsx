@@ -5,7 +5,7 @@ const SectionWhatarent = () => {
   return (
     <section className="bg-[url('https://cdn.prod.website-files.com/621defa0940f1fecd5d8d53b/622a847cd38a27869e9fe5da_Wave-blue.svg')] bg-cover bg-no-repeat flex flex-col justify-center items-center py-20 px-32 text-center font-black text-neutral-800">
         <div className="flex flex-col items-center">
-            <h2 className="mt-4 mb-2 text-6xl text-neutral-800">Ce que nous ne sommes pas</h2>
+            <h2 className="mt-4 mb-2 text-6xl text-neutral-800">Ce que je ne suis pas</h2>
             <Image src="https://cdn.prod.website-files.com/621defa0940f1fecd5d8d53b/623079cc915a8c735079ea67_grey-vector.svg" alt="trait noir" width={500} height={500} />
         </div>
         <div className='flex flex-col gap-8 pt-8 text-3xl font-black'>

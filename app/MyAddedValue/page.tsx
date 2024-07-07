@@ -7,7 +7,6 @@ const MyAddedValue = () => {
   return (
     <div>
       <SectionMyAddedValue />
-      <CircleAnimated />
       <TakingAction />
     </div>
   )
