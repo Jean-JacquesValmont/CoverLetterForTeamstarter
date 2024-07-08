@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import Link from 'next/link';
 
 const JoinUsAction = () => {
   return (
@@ -11,7 +12,9 @@ const JoinUsAction = () => {
                 <p className='pb-4 font-light leading-5'>Je suis impatient de pouvoir commencer l&apos;aventure Teamstarter au sein d&apos;une équipe de passionnés et bienveillante.</p>
                 <div className=' flex items-center gap-4 text-2xl'>
                     <p className='font-black text-neutral-800'>Alors n&apos;hésitez plus:</p>
-                    <button className='bg-[#FF00AC] text-white font-normal px-12 py-4 rounded-xl shadow-custom-dark'>Contacter moi !</button>
+                    <Link href="/Contact">
+                      <button className='bg-[#FF00AC] text-white font-normal px-12 py-4 rounded-xl shadow-custom-dark'>Contacter moi !</button>
+                    </Link>
                 </div>
             </div>
         </div>
