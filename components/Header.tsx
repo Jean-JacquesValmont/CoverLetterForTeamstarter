@@ -1,4 +1,6 @@
-import React from 'react'
+
+"use client"
+import React, { useState } from 'react';
 import Image from "next/image";
 import Link from 'next/link';
 import { FaLinkedin } from 'react-icons/fa';
@@ -6,14 +8,26 @@ import { FaGithub } from 'react-icons/fa';
 import Button from './Button';
 
 const Header = () => {
+
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
-    <header className='bg-white flex justify-between pt-2 px-32 font-light text-sm sticky text-neutral-800 top-0 z-10'>
+    <header className='bg-white max-w-[90rem] flex justify-between pt-2 px-16 sm:px-32 font-light text-sm sticky text-neutral-800 top-0 z-10'>
         <Link className='py-4' href="/">
             <Image src="/image/TeamstarterLogoCopie.png" alt="logo_web_white" width={200} height={500} />
         </Link>
+
+        <div className="sm:hidden">
+            <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="text-2xl focus:outline-none"
+            >
+            &#9776;
+            </button>
+        </div>
         
-        <nav className='flex'>
-            <ul className='flex gap-4 items-center flex-row '>
+        <nav className={`flex-col sm:flex-row ${isMenuOpen ? 'flex' : 'hidden'} sm:flex`}>
+            <ul className='flex gap-4 items-center flex-col sm:flex-row '>
                 <Link className='transition-colors duration-500 hover:text-[#ff00ac]' href="/MyAddedValue">
                     <li className='p-4'>Ma valeur ajoutée</li>
                 </Link>

@@ -6,13 +6,13 @@ import { FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className='bg-[#060606] flex flex-col py-8 px-32 text-white'>
-        <div className='flex'>
+    <footer className='bg-[#060606] flex flex-col justify-center items-center py-8 px-16 sm:px-32 text-white'>
+        <div className='max-w-[60rem] flex flex-col sm:flex-row'>
             <Link className='py-4' href="/">
                 <Image src="/image/TeamstarterLogoCopie2.png" alt="logo_web_white" width={200} height={500} />
             </Link>
             
-            <nav className='flex pl-8'>
+            <nav className='flex sm:pl-8'>
                 <ul className='flex gap-4 items-center flex-row '>
                     <Link className='hover:text-[#ff00ac]' href="/MyAddedValue">
                         <li className='p-4'>Ma valeur ajoutée</li>
@@ -26,7 +26,7 @@ const Footer = () => {
                 </ul>
             </nav>
         </div>
-        <div className='flex justify-between px-32'>
+        <div className='flex  sm:justify-between px-4 sm:px-32'>
             <p>
                 Copyright © 2024 Jean-Jacques Valmont. This site is a partial copy of the Teamstarter site
                 <a className='transition-colors duration-500 hover:text-[#ff00ac]' href="https://www.teamstarter.com/" target="_blank" rel="noopener noreferrer"> https://www.teamstarter.com/</a> 
