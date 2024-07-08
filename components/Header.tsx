@@ -3,12 +3,13 @@ import Image from "next/image";
 import Link from 'next/link';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
+import Button from './Button';
 
 const Header = () => {
   return (
     <header className='bg-white flex justify-between pt-2 px-32 font-light text-sm sticky text-neutral-800 top-0 z-10'>
         <Link className='py-4' href="/">
-            <Image src="/image/teamstarter_logo.svg" alt="logo_web_white" width={200} height={500} />
+            <Image src="/image/TeamstarterLogoCopie.png" alt="logo_web_white" width={200} height={500} />
         </Link>
         
         <nav className='flex'>
@@ -29,9 +30,7 @@ const Header = () => {
                     <FaGithub className='text-2xl transition-colors duration-500 hover:text-[#ff00ac]' />
                 </Link>
                 <Link href="/Contact">
-                    <button className='bg-[#ff00ac] text-white font-extrabold px-4 py-2 rounded-full transition transform duration-700 shadow-md hover:-translate-y-1 hover:shadow-custom-dark' >
-                        Me contacter
-                    </button>
+                    <Button text ="Me contacter" ></Button>
                 </Link> 
             </ul>
         </nav>

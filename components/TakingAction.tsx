@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
+import Button from './Button';
 
 const TakingAction = () => {
   return (
@@ -7,9 +8,7 @@ const TakingAction = () => {
         <h2 className="w-[60rem] text-center mt-4 mb-20 text-7xl text-neutral-800 font-black leading-[5.5rem]">Je suis impatients d’en parler avec vous.</h2>
         <div className=''>
         <Link href="/Contact">
-            <button className='bg-[#ff00ac] text-white font-extrabold px-4 py-2 rounded-full transition transform duration-700 shadow-md hover:-translate-y-1 hover:shadow-custom-dark' >
-                Me contacter
-            </button>
+          <Button text ="Me contacter" ></Button>
         </Link>
         </div>
     </div>

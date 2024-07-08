@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className='bg-[#060606] flex flex-col py-8 px-32 text-white'>
         <div className='flex'>
             <Link className='py-4' href="/">
-                <Image src="/image/teamstarter_logo.svg" alt="logo_web_white" width={200} height={500} />
+                <Image src="/image/TeamstarterLogoCopie2.png" alt="logo_web_white" width={200} height={500} />
             </Link>
             
             <nav className='flex pl-8'>
@@ -27,7 +27,11 @@ const Footer = () => {
             </nav>
         </div>
         <div className='flex justify-between px-32'>
-            <p>Copyright © 2024 Jean-Jacques Valmont. All rights reserved.</p>
+            <p>
+                Copyright © 2024 Jean-Jacques Valmont. This site is a partial copy of the Teamstarter site
+                <a className='transition-colors duration-500 hover:text-[#ff00ac]' href="https://www.teamstarter.com/" target="_blank" rel="noopener noreferrer"> https://www.teamstarter.com/</a> 
+                . All rights reserved to Teamstarter.
+            </p>
 
             <div className='flex text-neutral-700'>
                 <Link href="https://www.linkedin.com/in/jean-jacques-valmont-131630130/" target="_blank" rel="noopener noreferrer">
