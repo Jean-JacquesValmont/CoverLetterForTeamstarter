@@ -11,7 +11,7 @@ const SectionWhatarent = () => {
         <div className='flex flex-col gap-8 pt-8 text-3xl font-black'>
             <div>
                 <p>Je ne suis pas un simple développeur.</p>
-                <p className='text-purple-800'>Je suis un développeur qui a envie de se donner à fond pour développer, améliorer et maintenir la solution logicielle mise en place, tout en travaillant sur d&apos;autres projets spécifiques à l&apos;avenir.</p>
+                <p className='text-purple-800'>Je suis un développeur qui a envie de se donner à fond pour développer, améliorer et maintenir la solution logicielle mise en place chez Teamstarter, tout en travaillant sur d&apos;autres projets spécifiques à l&apos;avenir.</p>
             </div>
             <div>
                 <p>Je ne suis pas un simple salarié qui vient seulement travailler.</p>

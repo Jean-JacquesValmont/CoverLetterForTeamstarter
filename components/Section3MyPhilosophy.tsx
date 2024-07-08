@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Section3MyPhilosophy = () => {
   return (
-    <section className="w-[100rem] flex flex-col justify-start items-start py-20 px-32">
+    <section className="w-[90rem] flex flex-col justify-start items-start py-20 px-32">
         <div className='flex justify-center items-center pb-8'>
             <p className='font-light text-4xl mr-8'>Enfin, <span className='text-[#64008C] font-black'>créer ou remettre du lien</span> entre les collaborateurs est un pilier central dans la bonne santé d&apos;une entreprise. <span className='text-[#64008C] font-black'>Les relations humaines et le collectif sont primordiaux dans chaque entreprise.</span></p>
             <Image className="" src="/image/image_philosophy2.svg" alt="image_computer_smartphone" width={450} height={450} />
