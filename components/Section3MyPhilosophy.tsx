@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import Link from 'next/link';
 
 const Section3MyPhilosophy = () => {
   return (
@@ -9,9 +10,11 @@ const Section3MyPhilosophy = () => {
             <Image className="" src="/image/image_philosophy2.svg" alt="image_computer_smartphone" width={450} height={450} />
         </div>
         <p className='text-[#64008C] font-black text-4xl pb-4'>Prêt à changer le monde ensemble ?</p>
-        <button className='bg-[#ff00ac] text-white font-extrabold px-4 py-2 rounded-full transition transform duration-700 shadow-md hover:-translate-y-1 hover:shadow-custom-dark' >
-            Découvrez moi !
-        </button>
+        <Link href="https://port-folio-three-umber.vercel.app/" target="_blank">
+            <button className='bg-[#ff00ac] text-white font-extrabold px-4 py-2 rounded-full transition transform duration-700 shadow-md hover:-translate-y-1 hover:shadow-custom-dark' >
+                Découvrez moi !
+            </button>
+        </Link>
     </section>
   )
 }

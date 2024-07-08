@@ -28,9 +28,11 @@ const Header = () => {
                 <Link href="https://github.com/Jean-JacquesValmont" target="_blank" rel="noopener noreferrer">
                     <FaGithub className='text-2xl transition-colors duration-500 hover:text-[#ff00ac]' />
                 </Link>
-                <button className='bg-[#ff00ac] text-white font-extrabold px-4 py-2 rounded-full transition transform duration-700 shadow-md hover:-translate-y-1 hover:shadow-custom-dark' >
-                     Me contacter
-                </button>
+                <Link href="/Contact">
+                    <button className='bg-[#ff00ac] text-white font-extrabold px-4 py-2 rounded-full transition transform duration-700 shadow-md hover:-translate-y-1 hover:shadow-custom-dark' >
+                        Me contacter
+                    </button>
+                </Link> 
             </ul>
         </nav>
     </header>
