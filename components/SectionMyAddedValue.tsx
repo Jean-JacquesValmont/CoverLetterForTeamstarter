@@ -8,16 +8,16 @@ const SectionMyAddedValue = () => {
         </div>
         <div className='w-[70rem] flex flex-col gap-8 pt-8 text-3xl font-light'>
             <div>
-                <p>Ces dernières années, les attentes de vos collaborateurs se sont complètement transformées. Le monde du travail a changé.</p>
+                <p>Je suis une personne <span className='text-[#64008C] font-black'>proactive</span>. Mon expérience professionnelle dans le domaine de l&apos;animation m&apos;a permis d&apos;apprendre à <span className='text-[#64008C] font-black'>m&apos;adapter rapidement</span> et à développer une <span className='text-[#64008C] font-black'>grande autonomie.</span></p>
             </div>
             <div>
-                <p>D’ici 2025, 75 % de la population mondiale seront des millénials, engager et attirer les talents n’est plus un luxe mais un prérequis.</p>
+                <p>Le <span className='text-[#64008C] font-black'>travail d&apos;équipe</span>, ça me connaît ! J&apos;ai travaillé en équipe pour des événements associatifs, ce qui m&apos;a permis d&apos;acquérir <span className='text-[#64008C] font-black'>l&apos;esprit d&apos;équipe</span> et d&apos;apprendre à collaborer efficacement.</p>
             </div>
             <div>
-                <p>Désormais, les collaborateurs sont <span className='text-[#64008C] font-black'>en quête de sens et d&apos;impact.</span> Ils ne sont pas suffisamment mis en mouvement et impliqués dans l&apos;entreprise.</p>
+                <p>Je suis <span className='text-[#64008C] font-black'>curieux</span> par nature. J&apos;adore apprendre de nouvelles choses, ce qui me pousse à toujours <span className='text-[#64008C] font-black'>m&apos;améliorer</span>. J&apos;intègre ce que j&apos;apprends au quotidien pour devenir une <span className='text-[#64008C] font-black'>meilleure version de moi-même</span>.</p>
             </div>
             <div>
-                <p>Et pourtant sans leur engagement, il est difficile de créer une vraie <span className='text-[#64008C] font-black'>transformation</span>, d&apos;où la nécessité de les <span className='text-[#64008C] font-black'>rendre acteurs.</span></p>
+                <p>J&apos;ai déjà conçu des projets en équipe avec la <span className='text-[#64008C] font-black'>méthode agile</span>, mais aussi seul en <span className='text-[#64008C] font-black'>React et NodeJS</span>. J&apos;ai les bases nécessaires pour commencer sereinement ce nouveau projet qui me sera attribué.</p>
             </div>
         </div>
     </section>

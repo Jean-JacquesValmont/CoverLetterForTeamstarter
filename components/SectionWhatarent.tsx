@@ -10,20 +10,12 @@ const SectionWhatarent = () => {
         </div>
         <div className='flex flex-col gap-8 pt-8 text-3xl font-black'>
             <div>
-                <p>Nous ne sommes pas une simple boîte à idées.</p>
-                <p className='text-purple-800'>Nous exécutons les idées.</p>
+                <p>Je ne suis pas un simple développeur.</p>
+                <p className='text-purple-800'>Je suis un développeur qui a envie de se donner à fond pour développer, améliorer et maintenir la solution logicielle mise en place, tout en travaillant sur d&apos;autres projets spécifiques à l&apos;avenir.</p>
             </div>
             <div>
-                <p>Nous ne participons pas à une approche TOP DOWN.</p>
-                <p className='text-purple-800'>Nous aidons à mettre en place du BOTTOM UP dans votre organisation.</p>
-            </div>
-            <div>
-                <p>Nous ne sommes pas une plateforme d’innovation grande échelle.</p>
-                <p className='text-purple-800'>Nous prônons la frugalité par des projets à bas coût, mis en place rapidement par les collaborateurs eux-mêmes.</p>
-            </div>
-            <div>
-                <p>Nous ne sommes pas un réseau social.</p>
-                <p className='text-purple-800'>Notre but est de maintenir le lien entre les collaborateurs, la digitalisation est juste un moyen.</p>
+                <p>Je ne suis pas un simple salarié qui vient seulement travailler.</p>
+                <p className='text-purple-800'>Je suis un salarié qui a envie de s&apos;investir pleinement dans l&apos;entreprise, en prenant part à une aventure passionnante et innovante. Grâce aux projets portés par Teamstarter, ainsi qu&apos;au partage de connaissances et de compétences entre moi et l&apos;équipe, je souhaite contribuer et grandir au sein de l&apos;entreprise.</p>
             </div>
         </div>
     </section>

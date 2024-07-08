@@ -7,9 +7,10 @@ import React from 'react'
 const JoinUs = () => {
   return (
     <div>
-      <h1 className='mt-4 mb-2 text-center text-7xl font-black text-neutral-700 '>Ma Philosophie</h1>
+      <h1 className='mt-4 mb-2 text-center text-7xl font-black text-neutral-700 '>Pourquoi je veux rejoindre Teamstarter?</h1>
       <Section1MyPhilosophy />
       <Section2MyPhilosophy />
+      <Section3MyPhilosophy />
       <JoinUsAction />
     </div>
   )
