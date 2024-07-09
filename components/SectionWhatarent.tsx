@@ -17,6 +17,10 @@ const SectionWhatarent = () => {
                 <p>Je ne suis pas un simple salarié qui vient seulement travailler.</p>
                 <p className='text-purple-800'>Je suis un salarié qui a envie de s&apos;investir pleinement dans l&apos;entreprise, en prenant part à une aventure passionnante et innovante. Grâce aux projets portés par Teamstarter, ainsi qu&apos;au partage de connaissances et de compétences entre moi et l&apos;équipe, je souhaite contribuer et grandir au sein de l&apos;entreprise.</p>
             </div>
+            <div>
+                <p>Je suis pas un robot.</p>
+                <p className='text-purple-800'>Je suis une personne qui valorise les interactions humaines et le lien social. Pouvoir m&apos;intégrer dans une équipe engagée comme la vôtre serait une opportunité enrichissante et motivante, me permettant de contribuer pleinement et de m&apos;épanouir professionnellement.</p>
+            </div>
         </div>
     </section>
   )
