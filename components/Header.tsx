@@ -9,7 +9,7 @@ import Button from './Button';
 
 const Header = () => {
 
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   return (
     <header className='bg-white max-w-[90rem] flex justify-between pt-2 px-16 sm:px-32 font-light text-sm sticky text-neutral-800 top-0 z-10'>
