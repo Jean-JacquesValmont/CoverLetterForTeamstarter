@@ -15,10 +15,10 @@ const SectionIdeaToAction = () => {
                 <p className='text-sm sm:text-lg pb-4 font-light leading-5'>Ici, vous pouvez retrouver mes différents projets réalisés, en plus de celui-ci, sur mon portfolio ainsi que leurs codes sur GitHub.</p>
                 <div className='flex gap-4 text-sm sm:text-lg'>
                     <Link href="https://port-folio-three-umber.vercel.app/" target="_blank">
-                        <Button text ="Voir les projets réalisés" bgColor="#00FFB7" textColor="text-black" ></Button>
+                        <Button text ="Voir les projets réalisés" bgColor="bg-[#00FFB7]" textColor="text-black" ></Button>
                     </Link>
                     <Link href="https://github.com/Jean-JacquesValmont" target="_blank" rel="noopener noreferrer">
-                        <Button text ="Mon Github" bgColor="#64008C"></Button>
+                        <Button text ="Mon Github" bgColor="bg-[#64008C]"></Button>
                     </Link>
                 </div>
             </div>
